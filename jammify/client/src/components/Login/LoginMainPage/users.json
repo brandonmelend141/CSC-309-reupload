@@ -1,0 +1,50 @@
+[
+  {
+    "userId": 1,
+    "username": "user",
+    "password": "user",
+    "firstName": "Jacky",
+    "lastName": "Chan",
+    "email": "jack@jammify.com",
+    "gender": "male",
+    "gallery": "gallery demo",
+    "work" : "work demo",
+    "description": "Lorem ipsum doest, elloora scagic, lorem"
+  },
+  {
+    "userId": 2,
+    "username": "user2",
+    "password": "user2",
+    "firstName": "Kanye",
+    "lastName": "Rock",
+    "email": "kanye@jammify.com",
+    "gender": "male",
+    "gallery": "gallery demo",
+    "work" : "work demo",
+    "description": "Simply awsome, Lorem ipsum doest, elloora scagic, lorem"
+  },
+  {
+    "userId": 3,
+    "username": "user3",
+    "password": "user3",
+    "firstName": "joji",
+    "lastName": "Deg",
+    "email": "joji@jammify.com",
+    "gender": "female",
+    "gallery": "gallery demo",
+    "work" : "work demo",
+    "description": "I am JOJI, Lorem ipsum doest, elloora scagic, lorem"
+  },
+  {
+    "userId": 4,
+    "username": "admin",
+    "password": "admin",
+    "firstName": "Bruce",
+    "lastName": "Wayne",
+    "email": "Admin@jammify.com",
+    "gender": "male",
+    "gallery": "gallery demo",
+    "work" : "work demo",
+    "description": "I am Batman and I am the admin of this website, Lorem ipsum doest, elloora scagic, lorem"
+  }
+]

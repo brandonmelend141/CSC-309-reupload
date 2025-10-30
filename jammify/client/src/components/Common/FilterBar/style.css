@@ -1,0 +1,55 @@
+
+#filter_bar{
+    position: fixed;
+    top: 85px;
+    left: 50px;
+    float: left;
+    border: 3px solid purple;
+    width: 10%;
+    height: auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#filter_list{
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+.filter_bar_button{
+    background-color: white;
+    border: 1px solid purple;
+    padding: 10px 15px;
+    text-align: center;
+    width: 100%;
+    outline:0;
+    cursor: pointer;
+    
+}
+
+
+.filter_bar_button:hover{
+    background-color: purple;
+    color: white;
+    opacity: 0.5;    
+}
+
+.active_button{
+    background-color: purple;
+    color: white; 
+    
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+.option_container{
+    display: none;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    
+}

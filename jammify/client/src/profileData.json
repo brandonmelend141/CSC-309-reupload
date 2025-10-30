@@ -1,0 +1,77 @@
+[
+    {
+        "profileId": 1,
+        "profilePic": "kanye.jpg",
+        "personalInfo": {
+            "description": "Visionary Artist, Genius, Rapper, Producer. #KANYE2024.",
+            "name": "Kanye Omari West",
+            "gender": "M",
+            "age": 43
+        },
+        "works": {
+            "albums": ["The College Dropout (2004)", "Late Registration (2005)", "Graduation (2006)"],
+            "singles": ["Stronger", "FourFiveSeconds", "POWER"]
+        },
+        "offering": ["Producer", "Rapper"],
+        "lookingFor": ["Singer", "Guitarist"],
+        "genres": ["hip-hop", "rap", "religious", "experimental"],
+        "collaborators": [3],
+        "workDone": 6,
+        "contactInfo": {
+            "phone":"226-789-1086",
+            "email":"kanyewest@yahoo.com"
+        },
+        "gallery": ["kanye-rapping.jpg"],
+        "tags": ["rapper", "producer", "hip-hop"]
+    },
+    {
+        "profileId": 2,
+        "profilePic": "taylor.jpg",
+        "personalInfo": {
+            "description": "We are never, ever, ever, getting back together.",
+            "name": "Taylor Swift",
+            "gender": "F",
+            "age": 30
+        },
+        "works": {
+            "albums": ["Folklore (2020)", "reputation (2017)", "1989 (2014)", "Red (2012)", "Speak Now (2010)"],
+            "singles": ["Blank Space", "Shake It Off", "22", "You Belong With Me", "Bad Blood"]
+        },
+        "offering": ["Singer", "Guitarist", "Songwriter"],
+        "lookingFor": ["Producer"],
+        "genres": ["pop", "country", "folk"],
+        "collaborators": [3],
+        "workDone": 4,
+        "contactInfo": {
+            "phone":"647-395-1168",
+            "email":"taylorswift@music.biz"
+        },
+        "gallery":["taylor-guitar.jpg"],
+        "tags": ["pop", "country", "singer", "guitar"]
+    },
+    {
+        "profileId": 3,
+        "profilePic": "kendrick.jpg",
+        "personalInfo": {
+            "description": "Hello. I am Kendrick Lamar.",
+            "name": "Kendrick Lamar",
+            "gender": "M",
+            "age": 33
+        },
+        "works": {
+            "albums": ["DAMN. (2017)", "To Pimp a Butterfly (2015)", "good kid, m.A.A.d city (2012)", "Section.80 (2011)"],
+            "singles": ["HUMBLE.", "King Kunta", "HiiiPower"]
+        },
+        "offering": ["Rapper", "Songwriter"],
+        "lookingFor": ["Producer, Singer"],
+        "genres": ["hip-hop", "rap"],
+        "collaborators": [1,2],
+        "workDone": 5,
+        "contactInfo": {
+            "phone": "852-639-1250",
+            "email": "kendricklamar@gmail.com"
+        },
+        "gallery":["kendrick-rapping.jpg"],
+        "tags": ["hip-hop", "rap", "writer"]
+    }
+]

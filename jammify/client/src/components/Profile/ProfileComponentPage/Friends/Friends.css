@@ -1,0 +1,21 @@
+.request{
+    height: 153px;
+    width: 400px;
+    border: 3px solid;
+    background: wheat;
+}
+.friendImg{
+    height: 120px;
+    width: 120px;
+    float: left;
+}
+
+.name {
+    float: left;
+    font-weight: bold;
+}
+
+.friendDesc {
+    float: left;
+    font-weight: bold;
+}

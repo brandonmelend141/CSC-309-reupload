@@ -1,0 +1,58 @@
+.picTab{
+    height: 80px;
+    width: 300px;
+}
+
+.picTab-active{
+    height: 80px;
+    width: 300px;
+    background-color: violet;
+    font-family: cursive;
+    font-size: 22px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.picTab-active:hover {opacity: 1}
+
+.picTab-inactive{
+    height: 80px;
+    width: 300px;
+    background-color: rgb(250, 241, 250);
+    font-family: cursive;
+    font-size: 22px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.picTab-active:hover {opacity: 1}
+
+
+.regTab{
+}
+
+
+.regTab-active{
+    height: 56px;
+    width: 140px;
+    background-color: violet;
+    font-family: cursive;
+    font-size: 22px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.regTab-active:hover {opacity: 1}
+
+.regTab-inactive{
+    height: 56px;
+    width: 140px;
+    background-color: rgb(250, 241, 250);
+    font-family: cursive;
+    font-size: 22px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.regTab-active:hover {opacity: 1}
+
+
+li{
+    list-style-type: none;
+}

@@ -1,0 +1,110 @@
+.deleteButton {
+    position: absolute;
+    top: 430px;
+}
+
+
+.profileCard{
+    position: relative;
+    float: left;
+    left: 30px;
+    margin: 35px 60px;
+    border: 3px solid purple;
+    box-shadow: 10px 10px #1d1b1b;
+    border-radius: 25px;
+    height: 40%;
+    width: 15%;
+    cursor: pointer;
+}
+.cardPic{
+    border: 1px solid black;
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 180px;
+    margin: 10px 10px 10px 10px;
+    /* padding: 50px; */
+
+}
+.thumbnail{
+    width: 100%;
+    height: 100%;
+}
+
+.cardName{
+    color: purple;
+    float: left;
+    margin:0px  20px ;
+}
+.descDiv{
+    /* border: 1px solid black; */
+    /* padding: 50px;
+    margin: 50px; */
+    display: inline;
+    width: 250px;
+    height:  90px;
+    position: absolute;
+    top: 190px;
+    left: 20px;
+    
+}
+.profileDesc{
+    /* position: relative; */
+    text-align: justify;
+    float: left;
+    /* height: auto;
+    width: auto; */
+    /* margin: 5px 20px 20px 20px; */
+}
+.workTag{
+    position: absolute;
+    top:320px;
+    left: 3px;
+    float: left;
+    margin-left: 18px;
+    color: purple;
+}
+
+/* this is the css for the hover functionality */
+.hoverCard{
+    background-color: purple;
+    position: relative;
+    float: left;
+    left: 30px;
+    margin: 35px 60px;
+    border: 3px solid purple;
+    box-shadow: 10px 10px #1d1b1b;
+    border-radius: 25px;
+    height: 40%;
+    width: 15%;
+}
+
+.hoverCard > .cardName{
+    color: white;
+    float: left;
+    margin:0px  20px ;
+}
+.hoverCard > .descDiv{
+    color: white;
+    display: inline;
+    width: 250px;
+    height:  90px;
+    position: absolute;
+    top: 190px;
+    left: 20px;
+    
+}
+.hoverCard > .profileDesc{
+    text-align: justify;
+    color: white;
+    float: left;
+}
+
+.hoverCard > .workTag{
+    position: absolute;
+    top:320px;
+    left: 3px;
+    float: left;
+    margin-left: 18px;
+    color: white;
+}

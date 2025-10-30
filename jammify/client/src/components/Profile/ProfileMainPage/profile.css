@@ -1,0 +1,381 @@
+
+.profilePageWrapper{
+  width: 100%;
+  height: 100%;
+}
+.profilePageCard{
+  position: relative;
+  width: 80vh;
+  height: 150vh;
+  top: 20%;
+  margin: 5px;
+  left: 28%;
+  border: 3px solid purple;
+  border-radius: 25px;
+  box-shadow: 10px 10px #1d1b1b;
+}
+.favoriteProfiles{
+  position: relative;
+  float: left;
+  top: 30%;
+  margin: 5px;
+  border: 1px solid purple;
+  left:69%;
+  height:150vh;
+  width: 35%;
+  visibility: hidden;
+}
+.favs{
+  position: absolute;
+  left: 5%;
+  font-size: 22pt;
+  color: purple;
+}
+.settings{
+  position: absolute;
+  top: 4%;
+  left: 90%;
+  cursor: pointer;
+}
+.saveButton{
+  position: absolute;
+  top: 8%;
+  left: 87%;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  background-color: purple;
+  text-decoration: none;
+  box-shadow: 5px 5px #999;
+  visibility: hidden;
+}
+.activeSave{
+  visibility: visible;
+}
+.settingsIcon{
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.profilePagePicHolder{
+  position: absolute;
+  top: 1%;
+  left: 5%;
+  height: 186px;
+  width: 186px;
+}
+#profilePagePic{
+  border-radius: 50%;
+  border: 3px solid purple;
+  width: 100%;
+  height: 100%;
+}
+
+#profilePageShowCasePic{
+  width: 100%;
+  height: 100%;
+}
+
+
+.idInfo{
+  position: absolute;
+  /* border: 1px solid purple; */
+  top: 1%;
+  left: 34%;
+  width: 450px;
+  height: 186px;
+}
+.profileCardName{
+  position: absolute;
+  font-size: 20pt;
+  color: purple;
+  left: 0;
+}
+.profileCardGender{
+  position: absolute;
+  font-size: 20pt;
+  color: purple;
+  top: 25%;
+  left: 0;
+}
+.profileCardAge{
+  position: absolute;
+  font-size: 20pt;
+  color: purple;
+  top: 50%;
+  left: 0;
+}
+
+
+.profileCardDesc{
+  position: absolute;
+  border: 1px solid purple;
+  top: 17%;
+  left: 5%;
+  width: 90%;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px #494848;
+  overflow: hidden;
+  background-color: rgba(156, 122, 190, 0.336);
+}
+.profileCardDescHeader{
+  position: absolute;
+  height: 25px;
+  width: 100%;
+  background-color:  rgb(214, 68, 214);
+  color: white;
+  font-size: 16pt;
+  font-weight: bold;
+}
+.profileCardDescContent{
+  position: absolute;
+  margin: 10px;
+  top: 20%;
+  font-size: 12pt;
+}
+    
+
+.profileCardContactInfo{
+  position: absolute;
+  border: 1px solid purple;
+  top: 26%;
+  left: 5%;
+  width: 90%;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px #494848;
+  overflow: hidden;
+  background-color: rgba(156, 122, 190, 0.336);
+}
+.profileCardContactInfoHeader{
+  position: absolute;
+  height: 25px;
+  width: 100%;
+  background-color:  rgb(214, 68, 214);
+  color: white;
+  font-size: 16pt;
+  font-weight: bold;
+}
+.profileCardContactInfoContent{
+  /* position: absolute;
+  margin: 10px;
+  top: 20%;
+  font-size: 12pt; */
+}
+.profilePhoneInfo{
+  position: absolute;
+  margin: 10px;
+  top: 20%;
+  font-size:  1.125em;
+}
+.profileEmailInfo{
+  position: absolute;
+  margin: 10px;
+  top: 50%;
+  font-size:  1.125em;
+}
+.profileContentInfoNumber{
+  position: absolute;
+  margin: 10px;
+  top: 20%;
+  left: 10%;
+  font-size:  1.125em;
+}
+
+.profileContentInfoEmail{
+  position: absolute;
+  margin: 10px;
+  top: 50%;
+  left: 10%;
+  font-size:  1.125em;
+}
+       
+.profileCardOffering{
+  position: absolute;
+  border: 1px solid purple;
+  top: 35%;
+  left: 5%;
+  width: 90%;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px #494848;
+  overflow: hidden;
+  background-color: rgba(156, 122, 190, 0.336);
+}
+.profileCardOfferingHeader{
+  position: absolute;
+  height: 25px;
+  width: 100%;
+  background-color:  rgb(214, 68, 214);
+  color: white;
+  font-size: 16pt;
+  font-weight: bold;
+}
+.profileCardOfferingContent{
+  position: absolute;
+  margin: 10px;
+  top: 20%;
+  font-size: 12pt;
+}
+
+.profileCardLookingFor{
+  position: absolute;
+  border: 1px solid purple;
+  top: 44%;
+  left: 5%;
+  width: 90%;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px #494848;
+  overflow: hidden;
+  background-color: rgba(156, 122, 190, 0.336);
+}
+.profileCardLookingForHeader{
+  position: absolute;
+  height: 25px;
+  width: 100%;
+  background-color:  rgb(214, 68, 214);
+  color: white;
+  font-size: 16pt;
+  font-weight: bold;
+}
+.profileCardLookingForContent{
+  position: absolute;
+  margin: 10px;
+  top: 20%;
+  font-size: 12pt;
+}
+
+.profileCardShowCase{
+  position: absolute;
+  border: 1px solid purple;
+  top: 53%;
+  left: 5%;
+  width: 90%;
+  height: 450px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px #494848;
+  overflow: hidden;
+  background-color: rgba(156, 122, 190, 0.336);
+}
+.profileCardShowCaseHeader{
+  position: absolute;
+  height: 25px;
+  width: 100%;
+  background-color:  rgb(214, 68, 214);
+  color: white;
+  font-size: 16pt;
+  font-weight: bold;
+}
+.profileCardShowCaseContent{
+  position: absolute;
+  margin: 30px;
+  top: 2%;
+  border: 3px solid black;
+  width: 620px;
+  height: 380px;
+}
+                
+.profileCardPerviousWork{
+  position: absolute;
+  border: 1px solid purple;
+  top: 87%;
+  left: 5%;
+  width: 90%;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px #494848;
+  overflow: hidden;
+  background-color: rgba(156, 122, 190, 0.336);
+}
+.profileCardPerviousWorkHeader{
+  position: absolute;
+  height: 25px;
+  width: 100%;
+  background-color:  rgb(214, 68, 214);
+  color: white;
+  font-size: 16pt;
+  font-weight: bold;
+}
+.profileCardPerviousWorkContent{
+  /* position: absolute;
+  margin: 10px;
+  top: 20%;
+  font-size: 12pt; */
+}
+.profilePageAlbums{
+  position: absolute;
+  margin: 10px;
+  top: 20%;
+  font-size:  1.125em;
+}
+.profilePageSingles{
+  position: absolute;
+  margin: 10px;
+  top: 50%;
+  font-size:  1.125em;
+}
+.profilePWAlbums{
+  position: absolute;
+  margin: 10px;
+  top: 20%;
+  left: 10%;
+  font-size:  1.125em;
+}
+
+.profilePWSingles{
+  position: absolute;
+  margin: 10px;
+  top: 50%;
+  left: 10%;
+  font-size:  1.125em;
+}
+       
+
+/* .profileHeading {
+  float: left;
+  margin-top: 30px;
+  width: 350px;
+}
+.profileName {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: cursive;
+  position: relative;
+  margin-left: 300px;
+}
+
+.profileContent {
+  margin: 0px;
+  width: 520px;
+  position: absolute;
+  margin-left: 20px;
+  height: auto;
+  float: left;
+}
+
+.profile {
+  background-color: white;
+  overflow: auto;
+  border-bottom: 1px solid grey;
+  padding-bottom: 20px;
+  border: none;
+}
+
+.profileIcon {
+  left: 100px;
+  position: absolute;
+  top: 92px;
+  border: solid #f409c5;
+  width: 190px;
+  border-radius: 50%;
+}
+/*  */
+.profileDesc{
+  position: relative;
+    margin-top: 40px;
+} 

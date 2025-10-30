@@ -1,0 +1,27 @@
+.editProfile{
+    margin-left: 61px;
+    font-size: large;
+    font-family: fantasy;
+    background: aquamarine;
+    border-radius: 12px;
+    border: 3px solid #1f1c1c;
+    position: relative;
+    left: 100px;
+}
+.profileItem{
+    padding: 20px;
+    font-size: larger;
+    font-family: cursive;
+}
+.profileInfo{
+    height: auto;
+    width: 85%;
+    float: left;
+    margin-left: 600px;
+    margin-top: -201px;
+}
+.profilePopup{
+    position: relative;
+    bottom: 73px;
+    margin: 15px;
+}

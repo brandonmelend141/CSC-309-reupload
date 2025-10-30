@@ -1,0 +1,96 @@
+.blur-pop :not(.profilePopup){
+    filter: blur(0.6px);    
+}
+
+.errorMessages{
+    font-size: 14px;
+    color: red;
+    font-family: serif;
+}
+.popup-content {
+    margin: auto;
+    background: rgb(214 156 214);
+    width: 70%;
+    height: auto;
+    padding: 5px;
+    border: 5px solid #1f1c1c;
+    float: left;
+    margin-left: 500px;
+}
+.popForm{
+    margin-left: 47px;
+    background: rgb(156 186 214);
+    padding: 5px;
+    width: 85%;
+    margin-bottom: 40px;
+}
+
+.popField{
+    font-family: fantasy;
+    font-size: large;
+    position: absolute;
+
+}
+
+.popTitle{
+    font-size: larger;
+    font-weight: 900;
+    font-family: cursive;
+    margin: 30px;
+}
+
+.popValue input {
+    font-weight: normal;
+    width: 50%;
+    margin-left: 20px;
+    padding-left: 20px;
+    margin-bottom: 16px;
+    position: relative;
+    left: 60px;
+    font-family: sans-serif;
+    font-size: 14px;
+    height: auto;
+    background: bisque;
+    border: none;
+}
+
+.save {
+    float: left;
+    margin-left: 61px;
+    font-size: large;
+    font-family: fantasy;
+    background: aquamarine;
+    border-radius: 12px;
+    border: 3px solid #1f1c1c;
+}
+
+.saveExit{
+    float: left;
+    margin-left: 61px;
+    font-size: large;
+    font-family: fantasy;
+    background: aquamarine;
+    border-radius: 12px;
+    border: 3px solid #1f1c1c;
+    position: relative;
+    left: 65px;
+}
+
+
+.quit{
+    margin-left: 61px;
+    font-size: large;
+    font-family: fantasy;
+    background: aquamarine;
+    border-radius: 12px;
+    border: 3px solid #1f1c1c;
+    position: relative;
+}
+
+.popupEdit {
+    float: left;
+    width: 1000px;
+    height: 51px;
+    position: absolute;
+    margin-top: 57px;
+  }
